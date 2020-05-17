@@ -1,0 +1,5 @@
+ npm install copy-webpack-plugin --save-dev/dist/index.html
+/lsp/
+/dist/
+/node_modules/
+/.idea/

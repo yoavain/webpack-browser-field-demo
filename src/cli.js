@@ -1,2 +1,3 @@
-const getMessage = require("./util").getMessage;
+const { getMessage } = require("./util");
+
 console.log(getMessage());

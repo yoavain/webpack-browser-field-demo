@@ -13,5 +13,6 @@ module.exports = {
         { from: 'resources/index.html', to: './index.html' }
       ]
     })
-  ]
+  ],
+  mode: 'development'
 };

@@ -7,9 +7,13 @@
     "./src/node": "./src/browser"
   },
   "scripts": {
-    "build": "webpack --verbose"
+    "run-node": "node ./src/cli.js",
+    "build-browser": "webpack --verbose"
   },
-  "keywords": ["webpack", "browser"],
+  "keywords": [
+    "webpack",
+    "browser"
+  ],
   "author": "yoavain",
   "license": "ISC",
   "devDependencies": {

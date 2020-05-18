@@ -4,7 +4,7 @@
   "description": "",
   "private": true,
   "browser": {
-    "./src/node.js": "./src/browser.js"
+    "./src/node": "./src/browser"
   },
   "scripts": {
     "build": "webpack --verbose"

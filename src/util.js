@@ -1,5 +1,5 @@
-const {run} = require("./node")
+const { getMessage } = require("./node")
 
 module.exports = {
-    run
+    getMessage
 }

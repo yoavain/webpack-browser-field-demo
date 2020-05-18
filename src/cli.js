@@ -1,2 +1,2 @@
-const run = require("./util").run;
-console.log(`Hello webpack for ${run()}`);
+const getMessage = require("./util").getMessage;
+console.log(getMessage());

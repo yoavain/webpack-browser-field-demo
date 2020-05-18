@@ -6,6 +6,10 @@ This is a demo for Webapck using browser field in package.json file:
     "./src/node.js": "./src/browser.js"
   }
 ```
+It shows 2 things:
+1. Webpack **replaces** the *node.js* implementation with *browser.js* implementation
+2. Webpack **does not** pack the lodah that is used only by the *node.js* implementation
+
 
 Running
 ```

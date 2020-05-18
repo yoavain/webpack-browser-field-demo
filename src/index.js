@@ -1,13 +1,10 @@
-const _ = require("lodash");
-const {run} = require("./node");
+const { getMessage } = require("./util");
 
 function component() {
   const element = document.createElement("div");
 
-  const result = run();
-
-  // Lodash, currently included via a script, is required for this line to work
-  element.innerHTML = _.join(["Hello", "webpack", "for", result], ' ');
+  // Uses implementation for browser
+  element.innerHTML = getMessage();
 
   return element;
 }

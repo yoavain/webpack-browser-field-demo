@@ -1,7 +1,9 @@
-function run() {
-    return "node";
+const _ = require("lodash");
+
+function getMessage() {
+    return _.join(["Hello", "webpack", "for", "node"], ' ');
 }
 
 module.exports = {
-    run
+    getMessage
 }

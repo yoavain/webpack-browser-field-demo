@@ -1,7 +1,7 @@
-function run() {
-    return "browser";
+function getMessage() {
+    return ["Hello", "webpack", "for", "browser"].join(" ");
 }
 
 module.exports = {
-    run
+    getMessage
 }

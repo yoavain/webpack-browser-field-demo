@@ -8,7 +8,7 @@
   },
   "scripts": {
     "run-node": "node ./src/cli.js",
-    "build-browser": "webpack --verbose"
+    "build-browser": "webpack"
   },
   "keywords": [
     "webpack",
@@ -17,9 +17,9 @@
   "author": "yoavain",
   "license": "ISC",
   "devDependencies": {
-    "copy-webpack-plugin": "6.0.3",
-    "webpack": "5.74.0",
-    "webpack-cli": "3.3.12"
+    "copy-webpack-plugin": "11.0.0",
+    "webpack": "5.75.0",
+    "webpack-cli": "5.0.0"
   },
   "dependencies": {
     "lodash": "4.17.21"
